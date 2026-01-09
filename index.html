@@ -1,12 +1,88 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
-    <title>我的個人網站</title>
+    <title>11401 CS203A 課程網站</title>
+
+    <style>
+        /* 全站基本設定 */
+        body {
+            font-family: "Segoe UI", "Noto Sans TC", Arial, sans-serif;
+            background-color: #f4f6f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* 中央內容區塊 */
+        .container {
+            max-width: 800px;
+            margin: 60px auto;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+        }
+
+        /* 主標題 */
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+
+        /* 次標題 */
+        h2 {
+            color: #34495e;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 5px;
+            margin-top: 40px;
+        }
+
+        /* 說明文字 */
+        .intro {
+            text-align: center;
+            font-size: 1.1em;
+            margin-bottom: 40px;
+        }
+
+        /* 清單樣式 */
+        ul {
+            line-height: 1.8;
+        }
+
+        /* 手機版 */
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px;
+                padding: 20px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>我的 GitHub Pages 首頁！</h1>
-    <p>這裡放作品集或課程內容。</p>
-    <p>資料結構作業。</p>
+
+    <div class="container">
+        <h1>11401 CS203A 課程網站</h1>
+
+        <p class="intro">
+            本網站用於放置資料結構（CS203A）課程相關內容與作業。
+        </p>
+
+        <h2>課程資訊</h2>
+        <ul>
+            <li>課程名稱：資料結構（CS203A）</li>
+            <li>學期：114 學年度 第 1 學期</li>
+            <li>姓名：黃以慈</li>
+            <li>學號：1133313</li>
+        </ul>
+
+        <h2>作業</h2>
+        <ul>
+            <li>Homework</li>
+            <a href="file:///C:/Users/user/Downloads/Assignment_II_1133313%20(2).pdf">作業2連結</a>
+            <li>Homework 3（待補）</li>
+        </ul>
+    </div>
+
 </body>
 </html>
